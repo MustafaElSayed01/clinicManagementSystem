@@ -1,0 +1,122 @@
+body {
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.container {
+    background-color: #d1d1d1;
+}
+
+.main {
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    height: 200vh;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: calc(100vh-330px);
+    padding: 20px;
+    width: 280px;
+    margin-left: 20px;
+}
+
+.sidebar a {
+    margin-right: 10px;
+    display: block;
+    color: #0474ed;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 20px 0 5px 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    top: 165px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body label {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.crad-body img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-body form input {
+    border: 1px solid #0046c0;
+    height: 30px;
+    width: 50%;
+}
+
+.card-body form input[type='text'] {
+    margin-right: 56px;
+}
+
+.card-body input:focus {
+    outline: none;
+}
+
+.card-body input[type='submit'] {
+    height: fit-content;
+    width: fit-content;
+    padding: 8px 18px;
+    border: none;
+    background: #0046c0;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card-body select {
+    border: 1px solid #0046c0;
+    height: 30px;
+    width: 50%;
+    margin-right: 50px !important;
+}
+
+.card-body option:first {
+    outline: none;
+}
+
+.footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: -450px;
+}
+
+.predict label {
+    width: 35% !important;
+    margin: 8px 0;
+}
+
+.predict input {
+    width: 45% !important;
+}
+
+.predict select {
+    width: 45% !important;
+}

@@ -1,0 +1,123 @@
+    body {
+        margin-top: 20px;
+        background-color: lightgray;
+    }
+    
+    .container {
+        background-color: #d1d1d1;
+    }
+    
+    .container1 {
+        width: 95% !important;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #d1d1d1;
+    }
+    
+    .main {
+        padding: 40px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        position: relative;
+    }
+    
+    .crad-body img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .sidebar {
+        background-color: #333;
+        color: white;
+        height: calc(100vh-330px);
+        padding: 20px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    
+    .sidebar a {
+        margin-right: 10px;
+        display: block;
+        color: #0474ed;
+        padding-bottom: 10px;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 20px 0 5px 0;
+    }
+    
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content {
+        top: 165px;
+        width: 100%;
+        margin-right: 25px;
+    }
+    
+    .card-body label {
+        display: block !important;
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    
+    .card-body input[type="submit"] {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #0046c0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .card-body>img {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        transition: .5s;
+    }
+    
+    .card-body>img:hover {
+        transform: scale(3);
+    }
+    
+    .card-body {
+        display: flex;
+    }
+    
+    .margin {
+        margin: 0 auto;
+        width: 95% !important;
+        position: relative;
+    }
+    
+    .patient-info {
+        width: 50%;
+    }
+    
+    .patient-info h4 {
+        font-size: 22px;
+    }
+    
+    .patient-info p {
+        font-size: 16px;
+        color: gray;
+    }
+    
+    .patient-info hr {
+        width: 70%;
+    }
+    
+    .footer {
+        position: absolute;
+        width: 100%;
+        right: 0;
+    }
+    
+    .patient-info img {
+        width: 150px;
+        height: 150px;
+    }

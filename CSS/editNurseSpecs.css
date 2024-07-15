@@ -1,0 +1,76 @@
+body {
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.container {
+    background-color: #d1d1d1;
+}
+
+.main {
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: calc(100vh-330px);
+    padding: 20px;
+}
+
+.sidebar a {
+    margin-right: 10px;
+    display: block;
+    color: #0474ed;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 20px 0 5px 0;
+}
+
+.crad-body img {
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    top: 165px;
+    width: 100%;
+}
+
+.card-body label {
+    display: block !important;
+    font-size: 24px;
+}
+
+.card-body select {
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #0046c0;
+    width: 75%;
+    background: #f1e7e7;
+    margin: 15px 0 !important;
+}
+
+.card-body input[type="submit"] {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 20px;
+    background-color: #0046c0;
+    border-radius: 10PX;
+    COLOR: WHITE;
+    border: none;
+}
+
+select:focus {
+    outline: none;
+}

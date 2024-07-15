@@ -1,0 +1,181 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: white;
+    opacity: 100%;
+    position: relative;
+    left: 0;
+    width: 100%;
+    /* عشان يكون فوق اي جاده هعملها بال position */
+    z-index: 2;
+}
+
+header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* عملت minheight عشان لما اللينكات تختفي في شاشة الموبايل حجم ال container ميتغيرش */
+    height: 65px;
+    background-color: white;
+    padding-top: 8px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-container img {
+    height: 60px;
+    margin-right: 50px;
+    width: 80px;
+}
+
+
+/* عشان اعمل الخط الي تحت الهيدر  */
+
+header .nav-container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #0046C0;
+    bottom: -1px;
+    width: calc(100% - 30px);
+    left: 15px;
+}
+
+header nav {
+    /* عشان اخلى الليست تاخد باقي المساحة */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* عشان بكون في اخر الهيدر */
+    justify-content: flex-end;
+}
+
+header nav .toggle-menu {
+    color: #0046C0;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+@media (min-width: 768px) {
+    header nav .toggle-menu {
+        display: none;
+    }
+}
+
+header nav ul {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    header nav ul {
+        display: none;
+    }
+    /* ال toggle menu دي هتكون بدل كل اللينكات الي موجودة عشان شاشات الموبايل */
+    header nav .toggle-menu:hover+ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0 0 0 / 50%);
+    }
+    header nav ul li a {
+        padding: 15px !important;
+    }
+}
+
+header nav ul li a {
+    padding: 16px 15px;
+    display: block;
+    color: #0046C0;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+    /* عشان اخلي الخط بتاع الهوفر على الخط الي تحت الهيدر */
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+header nav ul li a:hover {
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+
+/* الخط الي قبل علامة السيرش */
+
+header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+    border-left: 1px solid #0046C0;
+}
+
+
+/* علامة السيرش */
+
+header nav .form i {
+    color: #0046C0;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+
+/*Small*/
+
+@media (max-width: 768px) {
+    header .nav-container {
+        width: -webkit-fill-available;
+    }
+}
+
+nav form input[type="text"] {
+    width: 70%;
+    height: 30px;
+    border: 2px solid #0046c0;
+    border-radius: 5px;
+}
+
+nav form input[type="submit"] {
+    padding: 6px 8px !important;
+    border: none;
+    border-radius: 5px;
+    background: #0046c0;
+    color: white;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    nav form input[type="submit"] {
+        padding: 6px 8px !important;
+    }
+    .nav-container img {
+        height: 60px;
+        margin-right: 20px;
+        width: 80px;
+    }
+}

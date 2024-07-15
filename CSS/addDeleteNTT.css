@@ -1,0 +1,82 @@
+.bg {
+    background-image: url(../img/team-3.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 90vh;
+    max-height: 90vh;
+    position: absolute;
+    right: 0;
+}
+
+.left {
+    position: relative;
+    width: 45%;
+    right: 50%;
+    padding: 20px;
+    max-height: 100vh;
+}
+
+.edit {
+    top: 170%;
+    position: absolute;
+    left: 8%;
+    margin-right: 15px;
+}
+
+.edit label {
+    display: block;
+    font-size: 28px;
+    margin: 12px 0;
+}
+
+.edit input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #0046c0;
+    width: 70%;
+    font-size: 20px;
+}
+
+.edit input[type="date"] {
+    border: 2px solid darkslategray;
+    height: 30px;
+    font-size: 20px;
+    width: 45%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.edit input[type="submit"] {
+    margin: 20px 0;
+    font-size: 20px;
+    position: relative;
+    display: block;
+    background-color: #0046c0;
+    padding: 10px 0 25px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    height: 30px;
+}
+
+input:focus {
+    outline: none;
+    background-color: #d1d1d1;
+}
+
+.edit select {
+    height: 30px;
+    font-size: 20px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: -304px;
+    right: 3%;
+    left: 3%;
+}

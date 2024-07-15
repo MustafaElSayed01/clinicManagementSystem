@@ -1,0 +1,97 @@
+.timeTable {
+    padding: 100px 50px 50px;
+    background-color: #d1d1d1;
+}
+
+.table-container {
+    padding: 33px 30px;
+    display: flex;
+    width: 1300px;
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+th {
+    font-weight: unset;
+    padding-right: 10px;
+    width: 130px;
+    padding-left: 25px
+}
+
+td {
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+tr.head th {
+    padding-top: 24px;
+    padding-bottom: 20px
+}
+
+tr td {
+    padding-top: 18px;
+    padding-bottom: 14px
+}
+
+.table100.ver tbody tr {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.table100.ver td {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: black;
+    line-height: 1.4
+}
+
+.table100.ver th {
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #0046c0
+}
+
+.table100.ver tr:hover td {
+    background-color: #fcebf5
+}
+
+.table100.ver .hov-column-ver {
+    background-color: #fcebf5
+}
+
+.table100.ver .hov-column-head-ver {
+    background-color: #7b88e3!important
+}
+
+.table100.ver tr td:hover {
+    background-color: #e03e9c;
+    color: #fff
+}
+
+.timeTable a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #0046c0;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.links {
+    position: absolute;
+    right: 0;
+    margin-right: 50px
+}
+
+.footer {
+    position: absolute;
+    right: 3%;
+    left: 3%;
+}

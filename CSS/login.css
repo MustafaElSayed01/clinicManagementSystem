@@ -1,0 +1,206 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Small*/
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-image: url("../img/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: .95;
+}
+
+.container .forms {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.container .form-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-content .login-form {
+    width: 100%;
+}
+
+.forms .form-content .title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.forms .form-content .title:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100px;
+    background: #0474ed;
+}
+
+.forms .signup-form .title:before {
+    width: 100px;
+}
+
+.forms .form-content .input-boxes {
+    margin-top: 30px;
+}
+
+.forms .form-content .input-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.form-content .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.form-content .input-box input:focus,
+.form-content .input-box input:valid {
+    border-color: #0474ed;
+}
+
+input[type="submit"] {
+    background-color: #0474ed;
+    cursor: pointer;
+    color: white;
+    font-size: 22px !important;
+    border-radius: 5px;
+}
+
+.form-content .input-box i {
+    position: absolute;
+    color: #0474ed;
+    font-size: 17px;
+}
+
+.forms .form-content .text a {
+    text-decoration: none;
+}
+
+.forms .form-content .text a:hover {
+    text-decoration: underline;
+}
+
+.input-boxes .type input {
+    margin-left: 2px;
+}
+
+.input-boxes .type label {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.input-boxes .type label:focus {
+    text-decoration: none;
+}
+
+.forms .form-content .button {
+    color: #fff;
+    margin-top: 40px;
+}
+
+.forms .form-content .button button {
+    background: #0474ed;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+.forms .form-content .button button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forms .form-content .button button a:hover {
+    text-decoration: none;
+}
+
+.forms .form-content label {
+    color: #0474ed;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.forms .form-content .login-text {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.type {
+    text-decoration: none;
+}
+
+.container #flip {
+    display: none;
+}
+
+@media (max-width: 730px) {
+    .form-content .login-form {
+        width: 100%;
+    }
+}

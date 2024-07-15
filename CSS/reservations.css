@@ -1,0 +1,114 @@
+body {
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.container {
+    background-color: #d1d1d1;
+}
+
+.main {
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: calc(100vh-330px);
+    padding: 20px;
+}
+
+.crad-body img {
+    width: 150px;
+    height: 150px;
+}
+
+.sidebar a {
+    margin-right: 10px;
+    display: block;
+    color: #0474ed;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 20px 0 5px 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    top: 165px;
+    width: 100%;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #0046c0;
+}
+
+td {
+    padding: 5px;
+}
+
+td a {
+    color: white;
+    text-decoration: none;
+    background: #0046c0;
+    padding: 6px 7px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+td a:hover {
+    color: white;
+}
+
+.card-body img {
+    width: 50px;
+    transition: .5s;
+}
+
+.card-body img:hover {
+    transform: scale(8) translateX(35px);
+}
+
+.rating-form input[type='submit'] {
+    background-color: #0046c0;
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.switcher {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.switcher li {
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+    min-width: 105px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.switcher li.active,
+.switcher li:hover {
+    background-color: #0046c0;
+    color: white;
+}

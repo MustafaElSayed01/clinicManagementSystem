@@ -1,0 +1,164 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* Small */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.all {
+    height: 130%;
+    position: relative;
+}
+
+.reservation {
+    background-color: #d1d1d1;
+    display: flex;
+    position: relative;
+    min-height: 100%;
+}
+
+.doctor-info {
+    position: relative;
+    width: 50%;
+    background-color: white;
+    top: 20px;
+    right: 20px;
+    border-radius: 20px;
+    height: 85vh;
+}
+
+.doctor-info img {
+    width: 150px;
+    height: 150px;
+}
+
+.doctor-info img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.doctor-info .info {
+    width: 90%;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.doctor-info .info label {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.doctor-info .info p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #504e70;
+}
+
+.doctor-info .info p:nth-child(4) {
+    font-size: 14px;
+}
+
+.book {
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    height: 85vh;
+}
+
+.reserve {
+    padding: 20px;
+    color: #504e70;
+    font-size: 20px;
+}
+
+.reserve p {
+    margin: 5px 0 15px;
+}
+
+.reserve label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.reserve input {
+    border: none;
+    border-bottom: 1px solid #0046c0;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 40px;
+}
+
+.reserve input:focus {
+    outline: none;
+}
+
+.book input:last-child {
+    border: none;
+    display: block;
+    margin: 25px 0;
+    padding: 15px 25px;
+    background-color: #0046C0;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: -40px;
+}

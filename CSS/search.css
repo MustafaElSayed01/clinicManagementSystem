@@ -1,0 +1,235 @@
+    body {
+        margin-top: 20px;
+        background-color: lightgray;
+        position: relative;
+    }
+    
+    .container {
+        background-color: #d1d1d1;
+    }
+    
+    .main {
+        padding: 40px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 130vh;
+    }
+    
+    .sidebar {
+        background-color: #333;
+        color: white;
+        height: calc(100vh-330px);
+        padding: 20px;
+    }
+    
+    .crad-body img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .sidebar a {
+        margin-right: 10px;
+        display: block;
+        color: #0474ed;
+        padding-bottom: 10px;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 20px 0 5px 0;
+    }
+    
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content {
+        top: 165px;
+        width: 100%;
+    }
+    
+    .card-body img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px 0;
+    }
+    
+    .doctor-data {
+        width: 50%;
+    }
+    
+    .doctor-data label {
+        font-size: 22px;
+    }
+    
+    .doctor-data p {
+        font-size: 18px;
+        color: gray;
+    }
+    
+    hr {
+        width: 70%;
+    }
+    
+    .reserve {
+        width: 50%;
+    }
+    
+    .reserve p {
+        font-size: 22px;
+    }
+    
+    .reserve div p {
+        font-size: 20px;
+    }
+    
+    .reserve div p span {
+        font-size: 18px;
+        color: gray;
+        display: block;
+    }
+    
+    .reserve a {
+        color: white;
+        background: #0046c0;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin-top: 25px;
+        display: block;
+        width: fit-content;
+        border-radius: 10px
+    }
+    
+    .reserve a:hover {
+        color: white;
+    }
+    
+    .container1 {
+        background-color: #d1d1d1;
+        width: 95% !important;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .margin {
+        margin: 0 auto;
+        width: 95% !important;
+        position: relative;
+    }
+    
+    .patient-info {
+        width: 50%;
+    }
+    
+    .patient-info h4 {
+        font-size: 22px;
+    }
+    
+    .patient-info p {
+        font-size: 16px;
+        color: gray;
+    }
+    
+    .patient-info hr {
+        width: 70%;
+    }
+    
+    .patient-info label {
+        font-size: 22px;
+    }
+    
+    .patient-info input {
+        display: block;
+        width: 50%;
+        border: 1px solid #0046c0;
+    }
+    
+    .patient-info input[type="submit"] {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #0046c0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .flex .patient-info p {
+        font-size: 18px;
+    }
+    
+    .flex label {
+        width: 40% !important;
+        margin: 8px 0;
+    }
+    
+    .flex input {
+        width: 45% !important;
+    }
+    
+    .flex input[type='submit'] {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #0046c0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        float: right;
+        margin-right: 45px;
+    }
+    
+    .lol {
+        position: absolute;
+        top: 32%;
+        right: 103px;
+        width: 50%;
+    }
+    
+    .lol hr {
+        width: 59%;
+    }
+    
+    .lol h4 {
+        font-size: 22px;
+    }
+    
+    .lol p {
+        font-size: 18px;
+        color: gray;
+    }
+    
+    .lol label {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    
+    .lol input {
+        display: block;
+        height: 30px;
+        width: 40%;
+        margin-top: 12px;
+        border: 1px solid #0046c0;
+        border-radius: 5px
+    }
+    
+    .lol input[type='submit'] {
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #0046c0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: fit-content;
+        height: fit-content;
+    }
