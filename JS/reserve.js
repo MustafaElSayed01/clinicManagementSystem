@@ -33,27 +33,3 @@ timeTo.addEventListener('blur', () => {
         timeTo.setCustomValidity('');
     }
 });
-// function setTo(){
-//     var from = document.getElementById("timeFrom").value;
-//     var date = new Date("1970-01-01T" + from + ":00");
-//     if (!from.endsWith(":30") && !from.endsWith(":00")) {
-//         var minutes = date.getMinutes();
-//         var roundedMints = Math.floor(minutes / 30 ) * 30;
-//         date.setMinutes(roundedMints);
-//         var roundedTime = date.toTimeString().slice(0,5);
-//         from = roundedTime;
-//         date.setMinutes(date.getMinutes() + 30);
-//         var newHour = date.getHours() + ":" + ("0" + date.getMinutes()).slice(-2);
-//         if (newHour == '0:00'){
-//         newHour = '00:00';
-//     }
-//         document.getElementById("timeTo").value = newHour;
-//     } else {
-//     date.setMinutes(date.getMinutes() + 30);
-//     var newHour = date.getHours() + ":" + ("0" + date.getMinutes()).slice(-2);
-//     if (newHour == '0:00'){
-//         newHour = '00:00';
-//     }
-//         document.getElementById("timeTo").value = newHour;
-//     }
-// }

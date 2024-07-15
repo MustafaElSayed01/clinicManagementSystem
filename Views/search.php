@@ -159,7 +159,7 @@ include_once 'footer.php';
 echo"
 </footer>
                 </body>
-                <script src='JS/functions.php'></script>
+                <script src='../JS/functions.php'></script>
                 </html>
                 ";
             }

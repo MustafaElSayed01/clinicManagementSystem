@@ -134,7 +134,7 @@ if(isset($_GET['dID']) && $_GET['reservedDay']){
                 <footer>
                     <?php include_once 'footer.php';?>
                 </footer>
-                <script src="JS/reservation.js"></script>
+                <script src="../JS/reservation.js"></script>
                 <script>
                 var input = document.getElementById('fdate');
                 const options = {

@@ -289,8 +289,8 @@ if (!$resultgetsSpecs) {
         </div>
         </div>
         </div>
-        <script src='JS/recepSignup.js'></script>
-        <script src='JS/adminSignup.js'></script>
+        <script src='../JS/recepSignup.js'></script>
+        <script src='../JS/adminSignup.js'></script>
         ";
     } ?>
                         <footer>

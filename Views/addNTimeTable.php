@@ -64,6 +64,6 @@ echo "<div class='bg'></div>
             include_once 'footer.php';
         ?>
 </footer>
-<script src='JS/reserve.js'></script>
+<script src='../JS/reserve.js'></script>
 </body>
 </html>

@@ -162,7 +162,7 @@ if (isset($_GET['view']) &&  $_GET["view"] == 'r'){
 </body>
 <?php
         echo"
-        <script src = 'JS/functions.js'></script>";
+        <script src = '../JS/functions.js'></script>";
         
     }
 } else if (isset($_GET['view']) &&  $_GET["view"] == 'n'){

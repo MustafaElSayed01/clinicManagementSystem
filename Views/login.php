@@ -50,7 +50,7 @@
             </div>
         </div>
     </div>
-    <script src="JS/loginValidation.js"></script>
+    <script src="../JS/loginValidation.js"></script>
 </body>
 
 </html>

@@ -83,7 +83,7 @@ if ($role == '4'){
     </div>
     </div>    
     </body>
-        <script src = 'JS/functions.js'></script>";
+        <script src = '../JS/functions.js'></script>";
 } else if ($role == '1'){
     $getdData = "SELECT * FROM users INNER JOIN doctors ON users.userID = doctors.nationalID WHERE users.userID = '$ID'";
     $resultdData = mysqli_query($conn,$getdData);
@@ -139,7 +139,7 @@ if ($role == '4'){
     </div>
     </div>    
     </body>
-    <script src =  'JS/functions.js'></script>";
+    <script src =  '../JS/functions.js'></script>";
     }
 } else if ($role == '2'){
     $getnData = "SELECT * FROM users INNER JOIN nurses ON users.userID = nurses.nationalID WHERE users.userID = '$ID'";
@@ -195,7 +195,7 @@ if ($role == '4'){
         </div>
     </div>
         </body>
-        <script src =  'JS/functions.js'></script>";
+        <script src = '../JS/functions.js'></script>";
 } else if ($role == '3'){
     $getrData = "SELECT * FROM users INNER JOIN receptionists ON users.userID = receptionists.nationalID WHERE users.userID = '$ID'";
     $resultrData = mysqli_query($conn,$getrData);
@@ -250,7 +250,7 @@ if ($role == '4'){
         </div>
         </div>
         </body>
-        <script src = 'JS/functions.js'></script>";
+        <script src = '../JS/functions.js'></script>";
 } else if ($role == '100'){
     $getaData = "SELECT * FROM admin WHERE userID = '$ID' ";
     $resultaData = mysqli_query($conn,$getaData);
@@ -309,7 +309,7 @@ if ($role == '4'){
         </div>
         </div>
         </body>
-            <script src = 'JS/functions.js'></script>";
+            <script src = '../JS/functions.js'></script>";
 
 }
 include_once 'footer.php';

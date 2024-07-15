@@ -61,6 +61,6 @@ echo"
             include_once 'footer.php';
         ?>
 </footer>
-<script src='JS/reserve.js'></script>
+<script src='../JS/reserve.js'></script>
 </body>
 </html>

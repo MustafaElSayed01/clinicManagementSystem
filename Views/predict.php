@@ -76,6 +76,6 @@ if ($resultpData ->num_rows > 0){
 include_once 'footer.php';
 ?>
 </body>
-<script src='JS/functions.js'></script>
+<script src='../JS/functions.js'></script>
 
 </html>

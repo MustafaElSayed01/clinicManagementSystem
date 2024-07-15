@@ -292,8 +292,8 @@ include_once 'footer.php';
 echo "
             </footer>
         </body>
-        <script src='JS/functions.js'></script>
-        <script src='JS/doctorProfile.js'></script>
+        <script src='../JS/functions.js'></script>
+        <script src='../JS/doctorProfile.js'></script>
     ";
 }
 }

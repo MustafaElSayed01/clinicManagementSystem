@@ -145,6 +145,6 @@ while ($row = $resultShownData->fetch_assoc()) {
     <?php include_once 'footer.php'; ?>
 </footer>
 </body>
-<script src="JS/pastResevations.js"></script>
+<script src="../JS/pastResevations.js"></script>
 </html>
 
